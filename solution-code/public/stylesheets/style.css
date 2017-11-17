@@ -15,10 +15,22 @@ a {
   background-color: #36465d;
 }
 
-.navbar-nav>li>a {
+.navbar-nav>li>a, .navbar-nav>li>form>button {
   color: #fff;
 }
 
+.navbar-nav>li>form>button, .navbar-nav>li>form>button:hover {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  color: white;
+  line-height: 18px;
+}
+
+.navbar-nav>li>form>button:hover, .navbar-nav>li>form>button:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
 .navbar-brand {
   padding: 2px 15px;
 }
